@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1290px;
+    align-items: center;
+    margin: auto;
+}
+
+.discount {
+    height: 44px;
+    background-color: #333333;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: poppins;
+    font-size: 16px;
+    color: #F2F2F2;
+}
+
+.menu {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-logo {
+    width: 202px;
+    height: 40px;
+    align-self: center;
+}
+
+.nav {
+    max-width: 300px;
+    width: 100%;
+    align-self: center;
+}
+.nav nav {
+    max-width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav nav a {
+    color: inherit;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.nav nav a:hover {
+    color: blue;
+}
+
+.contactus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 202px;
+}
+.contactus button {
+    width: 151px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 60px;
+    border: none;
+    background-color: #DEFF03;
+    font-family: poppins;
+    font-size: 16px;
+    
+}
+
+.contactus button img {
+    height: 18px;
+}
+
+
+
+
