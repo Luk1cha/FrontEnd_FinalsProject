@@ -1,0 +1,32 @@
+<svg width="120" height="20" viewBox="0 0 120 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_1_232" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="20" height="20">
+<rect width="20" height="20" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_1_232)">
+<path d="M4.92698 17.3959L6.27073 11.6251L1.79156 7.7501L7.69782 7.23969L9.9999 1.80219L12.302 7.23969L18.2082 7.7501L13.7291 11.6251L15.0728 17.3959L9.9999 14.3334L4.92698 17.3959Z" fill="#FFB800"/>
+</g>
+<mask id="mask1_1_232" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="25" y="0" width="20" height="20">
+<rect x="25" width="20" height="20" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask1_1_232)">
+<path d="M29.927 17.3959L31.2707 11.6251L26.7916 7.7501L32.6978 7.23969L34.9999 1.80219L37.302 7.23969L43.2082 7.7501L38.7291 11.6251L40.0728 17.3959L34.9999 14.3334L29.927 17.3959Z" fill="#FFB800"/>
+</g>
+<mask id="mask2_1_232" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="50" y="0" width="20" height="20">
+<rect x="50" width="20" height="20" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask2_1_232)">
+<path d="M54.927 17.3959L56.2707 11.6251L51.7916 7.7501L57.6978 7.23969L59.9999 1.80219L62.302 7.23969L68.2082 7.7501L63.7291 11.6251L65.0728 17.3959L59.9999 14.3334L54.927 17.3959Z" fill="#FFB800"/>
+</g>
+<mask id="mask3_1_232" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="75" y="0" width="20" height="20">
+<rect x="75" width="20" height="20" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask3_1_232)">
+<path d="M79.927 17.3959L81.2707 11.6251L76.7916 7.7501L82.6978 7.23969L84.9999 1.80219L87.302 7.23969L93.2082 7.7501L88.7291 11.6251L90.0728 17.3959L84.9999 14.3334L79.927 17.3959Z" fill="#FFB800"/>
+</g>
+<mask id="mask4_1_232" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="100" y="0" width="20" height="20">
+<rect x="100" width="20" height="20" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask4_1_232)">
+<path d="M104.927 17.3959L106.271 11.6251L101.792 7.7501L107.698 7.23969L110 1.80219L112.302 7.23969L118.208 7.7501L113.729 11.6251L115.073 17.3959L110 14.3334L104.927 17.3959Z" fill="#FFB800"/>
+</g>
+</svg>
