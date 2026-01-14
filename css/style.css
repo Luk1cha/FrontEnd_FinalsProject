@@ -1,86 +1,227 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .wrapper {
-    max-width: 1290px;
-    align-items: center;
-    margin: auto;
+  max-width: 1290px;
+  align-items: center;
+  margin: auto;
 }
 
+/* header */
+
 .discount {
-    height: 44px;
-    background-color: #333333;
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    font-family: poppins;
-    font-size: 16px;
-    color: #F2F2F2;
+  height: 44px;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
+  font-size: 16px;
+  color: #f2f2f2;
+}
+
+.discount p {
+    transition: color 0.3s;
+    cursor: pointer;
+}
+.discount p:hover {
+    color: #deff03;
 }
 
 .menu {
-    height: 100px;
-    display: flex;
-    justify-content: space-around;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .header-logo {
-    width: 202px;
-    height: 40px;
-    align-self: center;
+  width: 202px;
+  height: 40px;
+  align-self: center;
 }
 
 .nav {
-    max-width: 300px;
-    width: 100%;
-    align-self: center;
+  max-width: 300px;
+  width: 100%;
+  align-self: center;
 }
 .nav nav {
-    max-width: 300px;
-    display: flex;
-    justify-content: space-between;
+  max-width: 300px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav nav a {
-    color: inherit;
-    text-decoration: none;
-    font-family: poppins;
-    font-size: 16px;
-    transition: color 0.2s;
+  color: inherit;
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 16px;
+  transition: color 0.3s;
 }
 
 .nav nav a:hover {
-    color: blue;
+  color: #deff03;
 }
 
 .contactus {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 202px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 202px;
 }
+
 .contactus button {
-    width: 151px;
-    height: 46px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    border-radius: 60px;
-    border: none;
-    background-color: #DEFF03;
-    font-family: poppins;
-    font-size: 16px;
-    
+  width: 151px;
+  height: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border-radius: 60px;
+  border: none;
+  background-color: #deff03;
+  font-family: poppins;
+  font-size: 16px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.contactus button:hover{
+    background-color: gray;
 }
 
 .contactus button img {
-    height: 18px;
+  height: 18px;
 }
 
+/* hero section */
 
+#hero {
+  background-image: url("/img/Rectangle 61.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 566px;
+  display: flex;
+}
 
+.hero {
+  display: flex;
+  width: 100%;
+  gap: 40px;
+  align-items: center;
+  position: relative;
+}
+
+.hero .left {
+  flex: 1;
+  border-radius: 10px;
+  margin-top: -100px;
+}
+
+.hero .left .text h3 {
+  font-family: poppins;
+  font-size: 50px;
+  font-weight: 600;
+  color: #333333;
+  line-height: 1.2;
+  padding-bottom: 30px;
+}
+
+.hero .left .text p {
+  font-family: poppins;
+  font-size: 16px;
+  color: #828282;
+  line-height: 1.2;
+  font-weight: 400;
+  padding-bottom: 40px;
+  max-width: 600px;
+}
+
+.hero .left .btns {
+  display: flex;
+  gap: 10px;
+  max-height: 59px;
+}
+
+.hero .left .btns button {
+  padding: 12px 30px;
+  border: 1px solid #333333;
+  background-color: transparent;
+  color: #333333;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s;
+}
+
+.hero .left .btns button:first-child {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.hero .left .btns button:hover {
+  background-color: #deff03;
+  color: #333333;
+}
+
+.hero .right {
+  flex: 1;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #E9E9E95C;
+  max-width: 410px;
+  margin-top: -20px;
+
+}
+
+.hero .right .text h4 {
+  font-family: poppins;
+  font-size: 20px;
+  font-weight: 500;
+  color: #333333;
+  line-height: 1.2;
+  padding-bottom: 10px;
+}
+
+.hero .right .text p {
+  font-family: poppins;
+  font-size: 16px;
+  color: #666666;
+  line-height: 1.2;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.hero .right .btns {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero .right .btns button {
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+  background-color: #deff03;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.hero .right .btns button:hover {
+  background-color: gray;
+}
+
+.hero .right .btns button img {
+  width: 22px;
+  height: 22px;
+
+}
 
