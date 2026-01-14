@@ -10,7 +10,7 @@
   margin: auto;
 }
 
-/* header */
+/* discount */
 
 .discount {
   height: 44px;
@@ -24,6 +24,7 @@
 }
 
 .discount p {
+    margin-left: 50px;
     transition: color 0.3s;
     cursor: pointer;
 }
@@ -31,14 +32,16 @@
     color: #deff03;
 }
 
+/* header */
+
 .menu {
   height: 100px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .header-logo {
-  width: 202px;
+  /* width: 202px; */
   height: 40px;
   align-self: center;
 }
@@ -70,7 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 202px;
+  /* width: 202px; */
 }
 
 .contactus button {
