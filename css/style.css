@@ -92,16 +92,18 @@ header {
   font-size: 16px;
   transition: all 0.3s;
   cursor: pointer;
+  gap: 5px;
 }
 .contactus button:hover {
   background-color: gray;
+  gap: 10px;
 }
 
 .contactus button img {
   height: 18px;
 }
 
-/* hero section */
+/* hero */
 
 #hero {
   background-image: url("/img/Rectangle 61.png");
@@ -221,14 +223,18 @@ header {
 
 .hero .right .btns button:hover {
   background-color: gray;
+  img{
+    transform: scale(1.2);
+  }
 }
 
 .hero .right .btns button img {
   width: 22px;
   height: 22px;
+  transition: all 0.3s;
 }
 
-/* stats section */
+/* stats */
 
 #stats {
   border-bottom: 1px solid #bdbdbd;
@@ -262,3 +268,192 @@ header {
   line-height: 1.4;
   font-weight: 400;
 }
+
+/* about us */
+
+#aboutus {
+  padding: 80px 0;
+}
+
+#aboutus .wrapper {
+  display: flex;
+  gap: 0;
+  align-items: stretch;
+}
+
+#aboutus .wrapper > img {
+  flex: 1;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  z-index: 10;
+}
+
+#aboutus .right {
+  flex: 1;
+  margin-left: -20px;
+  background-color: #deff03;
+  padding: 60px 50px;
+  border-radius: 0 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 9;
+}
+
+#aboutus .right .text {
+  margin-bottom: 30px;
+}
+
+#aboutus .right .text h3 {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 500;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+#aboutus .right .text p {
+  font-family: poppins;
+  font-size: 20px;
+  color: #4F4F4F;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+#aboutus .right .btns {
+  display: flex;
+  align-items: center;
+}
+
+#aboutus .right .btns button {
+  width: 173px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid #333333;
+  border-radius: 50px;
+  transition: all 0.3s;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+}
+
+#aboutus .right .btns button:hover {
+  gap: 15px;
+}
+
+#aboutus .right .btns button img {
+  width: 20px;
+  height: 20px;
+}
+
+
+/* service */
+
+#service {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+#service .wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+#service .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+#service .top h2 {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 500;
+  color: #333333;
+}
+
+#service .top button {
+  width: 177px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background-color: #deff03;
+  border: 0;
+  border-radius: 50px;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333333;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#service .top button:hover {
+  gap: 15px;
+}
+
+#service .top button img {
+  width: 24px;
+  height: 24px;
+}
+
+#service .bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#service .bottom .box {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  transition: all 0.3s;
+  border-radius: 10px;
+  border: 1px solid #E0E0E0;
+  max-width: 300px;
+  gap: 10px;
+  height: 100%;
+}
+
+#service .bottom .box:hover {
+  background-color: #E0E0E0;
+  gap: 15px;
+  img{
+    transform: scale(1.2);
+  }
+}
+
+#service .bottom .box img {
+  width: 64px;
+  height: 64px;
+  transition: all 0.3s;
+}
+
+#service .bottom .box h3 {
+  font-family: poppins;
+  font-size: 24px;
+  font-weight: 600;
+  color: #4F4F4F;
+}
+
+#service .bottom .box p {
+  font-family: poppins;
+  font-size: 16px;
+  color: #828282;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
