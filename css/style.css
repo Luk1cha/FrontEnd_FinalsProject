@@ -359,6 +359,7 @@ header {
 #service {
   padding: 20px;
   background-color: #ffffff;
+  min-height: 640px;
 }
 
 #service .wrapper {
@@ -457,3 +458,80 @@ header {
   font-weight: 400;
 }
 
+#solutions {
+  padding: 30px;
+  background-image: url("/img/Rectangle 62.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 782px;
+  display: flex;
+  align-items: center;
+}
+
+#solutions .wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+#solutions .text-section {
+  max-width: 630px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: #E9E9E933;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  margin-left: 0px;
+}
+
+#solutions .text-section h3 {
+  font-family: poppins;
+  font-size: 30px;
+  font-weight: 500;
+  color: #F2F2F2;
+}
+
+#solutions .text-section p {
+  font-family: poppins;
+  font-size: 16px;
+  color: #F2F2F2;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+#solutions .text-section ul {
+  margin-left: 25px;
+  font-family: poppins;
+  font-size: 16px;
+  color: #F2F2F2;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+#solutions .text-section button {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #DEFF03;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s;
+  img {
+    width: 25px;
+    height: 25px;
+    transition: all 0.3s;
+  }
+}
+
+#solutions .text-section button:hover {
+  img{
+    transform: scale(1.2);
+  }
+}
