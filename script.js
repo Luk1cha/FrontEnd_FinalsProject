@@ -163,3 +163,13 @@ cookieDeny.addEventListener('click', () => {
 
 // Check cookie choice on page load
 checkCookieChoice();
+
+// scroll to the top
+
+document.getElementById("logo-link").addEventListener("click", function(event) {
+  event.preventDefault(); // Prevent default jump behavior
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth' // Smooth scrolling!
+  });
+});
