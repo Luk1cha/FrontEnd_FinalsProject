@@ -107,7 +107,7 @@ header {
 /* hero */
 
 #hero {
-  background-image: url("./img/Rectangle 61.png");
+  background-image: url("../img/Rectangle 61.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -462,7 +462,7 @@ header {
 
 #solutions {
   padding: 30px;
-  background-image: url("./img/Rectangle 62.png");
+  background-image: url("../img/Rectangle 62.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
