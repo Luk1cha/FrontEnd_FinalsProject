@@ -3,10 +3,10 @@
   <head>
     <meta lang="en" />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,6 +33,23 @@
               <a href="#">Industries</a>
             </nav>
           </div>
+          <div class="burger-menu">
+            <button class="burger-btn" id="burgerBtn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <nav class="burger-nav" id="burgerNav">
+              <a href="#">About</a>
+              <a href="#">Service</a>
+              <a href="#">Project</a>
+              <a href="#">Industries</a>
+              <button class="burger-contact-btn">
+                Contact us
+                <img src="img/arrow_outward.svg" />
+              </button>
+            </nav>
+          </div>
           <div class="contactus">
             <button>
               Contact us
@@ -56,8 +73,8 @@
             </p>
           </div>
           <div class="btns">
-            <button>BROWSE (06)</button>
-            <button>PROJECT (30)</button>
+            <button>BROWSE</button>
+            <button>PROJECT</button>
           </div>
         </div>
         <div class="right">
@@ -389,5 +406,7 @@
         </div>
       </div>
     </footer>
+    
+    <script src="script.js" defer></script>
   </body>
 </html>
