@@ -1161,4 +1161,29 @@ footer .bottom .social img:hover {
   }
 }
 
+/* success popup */
+
+.success-popup {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20px);
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 500;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.success-popup.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
 

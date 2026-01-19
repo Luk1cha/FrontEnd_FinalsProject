@@ -40,3 +40,48 @@ burgerBtn.addEventListener('click', () => {
   burgerBtn.classList.toggle('active');
   burgerNav.classList.toggle('active');
 });
+
+// Email validation
+const subscribeForm = document.querySelector('#Subscribe form');
+const emailInput = document.getElementById('user_email');
+
+subscribeForm.addEventListener('submit', (e) => {
+  e.preventDefault();
+  
+  const email = emailInput.value.trim();
+  
+  // Email validation regex
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  
+  if (!emailRegex.test(email)) {
+    alert('Please enter a valid email address');
+    return;
+  }
+  
+  // Show success popup
+  showSuccessPopup();
+  
+  // Clear form
+  emailInput.value = '';
+});
+
+function showSuccessPopup() {
+  const popup = document.createElement('div');
+  popup.className = 'success-popup';
+  popup.textContent = 'Successfully subscribed!';
+  
+  document.body.appendChild(popup);
+  
+  // Show popup with animation
+  setTimeout(() => {
+    popup.classList.add('show');
+  }, 10);
+  
+  // Remove popup after 3 seconds
+  setTimeout(() => {
+    popup.classList.remove('show');
+    setTimeout(() => {
+      popup.remove();
+    }, 300);
+  }, 2000);
+}
