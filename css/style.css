@@ -465,6 +465,13 @@ header {
   align-items: center;
   width: 100%;
   flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media (max-width: 545px) {
+  #service .top {
+    justify-content: center;
+  }
 }
 
 #service .top h2 {
@@ -472,6 +479,7 @@ header {
   font-size: 30px;
   font-weight: 500;
   color: #333333;
+  text-wrap: nowrap;
 }
 
 #service .top button {
@@ -508,6 +516,13 @@ header {
   justify-content: space-between;
   width: 100%;
   flex-wrap: wrap;
+}
+
+@media (max-width:1240px) {
+  #service .bottom {
+    justify-content: center;
+    max-width: 600px;
+  }
 }
 
 #service .bottom .box {
