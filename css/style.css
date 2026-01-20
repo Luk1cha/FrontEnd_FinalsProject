@@ -55,9 +55,33 @@ body {
 
 .discount p {
   margin-left: 50px;
+  text-align: center;
   transition: color 0.3s;
   cursor: pointer;
+  text-wrap: nowrap;
+  width: 100%
 }
+
+@media (max-width: 700px) {
+  .discount p{
+   margin-left: 0;
+   justify-content: center;
+   align-items: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .discount p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 340px) {
+  .discount p {
+    font-size: 13px;
+  }
+}
+
 .discount p:hover {
   color: #deff03;
 }
